@@ -1,0 +1,10 @@
+<h1>Visualizando registro {{ id }} </h1>
+
+<p>nome: {{ nome }} </p>
+<p>sobrenome: {{ sobrenome }}</p>
+<p>email: {{ email }}</p>
+
+<form action="/{{ id }}" method="POST">
+    <input type="text" name="email">
+    <button>Salvar</button>
+</form>
