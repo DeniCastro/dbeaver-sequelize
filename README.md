@@ -1,5 +1,5 @@
-# dbeaver-sequelize
-## please, to use the directory properly, start using the following commands on your terminal>:
+# Form using node, dbeaver, mysql and sequelize
+## please, to use the directory properly, start using the following commands on your terminal:
 npm install sequelize mysql2
 npm install -g sequelize-cli
 sequelize --version
