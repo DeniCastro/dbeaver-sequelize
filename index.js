@@ -8,6 +8,8 @@ require('dotenv').config()
 app.engine('handlebars', engine())
 app.set('view engine', 'handlebars')
 
+app.use(express.static('public'))  // Usa CSS
+
 
 app.use(express.urlencoded({ extends: true}))
 app.use(express.json())

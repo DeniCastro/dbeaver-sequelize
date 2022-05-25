@@ -12,9 +12,9 @@ module.exports = class IndexController {
         let nome = req.body.nome
         let email = req.body.email
         let data_nascimento = req.body.data_nascimento
-
-        console.log(this.store)
+                
         res.redirect('/')   // Redireciona a rota
-    }
+        console.log(this.store)
+    }   
 
 }

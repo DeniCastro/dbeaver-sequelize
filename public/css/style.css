@@ -1,0 +1,14 @@
+body 
+{
+    color: hotpink;
+    background: black;
+    width: 100%;
+    text-align: center;
+    height: 500%;
+}
+
+.btn, .btn-success
+{
+    background-color: lightsalmon;
+    color: black;
+}
